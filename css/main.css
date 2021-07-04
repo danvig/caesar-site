@@ -1,0 +1,60 @@
+/*
+
+    CASESAR CODE CSS STYLING FILE
+    DATE: 4/07/21
+
+*/
+
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #F8EFD3;
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+h1 {
+    font-size:20px;
+}
+
+.box {
+    width:1000px;
+    height:350px;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+}
+
+.input {
+    height:20px;
+    width:400px;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+    font-size:14px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.button {
+    border-width:3px;
+    border-radius:5px;
+    border-style:solid;
+    border-color:#D0BE90;
+    background-color:#F8EFD3;
+    color:red;
+    font-family: 'Press Start 2P', cursive;
+    font-size:15px;
+    height:30px;
+    width:150px;
+}
+
+.button:hover {
+    background-color:red;
+    color:#D0BE90;
+    border-color:red;
+}

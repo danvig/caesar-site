@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Got a secret message you want to decode? Or got a message you want to encode? Use our caesar shift cipher to do it!">
+        <meta name="keywords" content="encryption, decryption, secret code, caesar, cipher, codes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>DCODE Your Caesar Code</title>
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+
+        <!-- JavaScript -->
+        <script src="js/encrypt.js"></script>
+    </head>
+
+    <body>
+        <center>
+            <!-- Heading -->
+            <h1 style="text-align:center;">DCODE your stuff</h1>
+            <hr style="width:1000px; border-color:black;">
+            <!-- End Heading -->
+
+            <!-- Encryption Box -->
+            <div class="box">
+                <h2>Encrypt</h2>
+                <p>Enter your message, choose a base number, and hit "Encrypt"</p>
+
+                <br>
+
+                <!-- Inputs -->
+                <form>
+                    <input type="text" name="encrypt" id="encrypt" class="input" placeholder=" Enter plaintext message" required>
+
+                    <br><br>
+
+                    <!-- Dropdown -->
+                    <select name="shiftnum" id="shiftnum" style="width:430px; height:20px; border-style:solid; border-width:1px; border-color:black; font-family: 'Source Code Pro', monospace;">
+                        <option value="" disabled selected>Shift Number</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                    </select>
+
+                    <br><br>
+
+                    <button class="button" onclick ="encrypt()">Encrypt</button>
+                </form>
+
+                <br><br>
+                <p style="font-family: 'Source Code Pro', monospace;" id="enc-output">Your secret message is: </p>
+            </div>
+        </center>
+    </body>
+
+</html>
